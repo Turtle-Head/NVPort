@@ -1,9 +1,9 @@
 <script setup>
-import TheProjects from '../components/TheProjects.vue'
+import ProjectsView from '../components/Projects.vue'
 </script>
 
 <template>
   <main>
-    <TheProjects/>
+    <ProjectsView />
   </main>
 </template>

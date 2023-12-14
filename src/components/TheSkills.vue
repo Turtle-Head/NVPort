@@ -1,8 +1,8 @@
 <template>
     <div>
-        <h2>Skills</h2>
+        <h2 class="green">Skills</h2>
         <ul>
-            <li v-for="skill in skills" :key="skill.id">
+            <li class="green" v-for="skill in skills" :key="skill.id">
                 {{ skill.name }} - {{ skill.yearsOfExperience }} years
             </li>
         </ul>

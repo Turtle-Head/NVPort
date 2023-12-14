@@ -121,7 +121,7 @@ export default {
     }
 };
 </script>
-    <div class="project-grid">
+    <!-- <div class="project-grid">
         <div v-for="project in project" :key="project.id" class="project-thumbnail">
             <img :src="project.thumbnail" alt="Project Thumbnail" />
             <div class="project-info">
@@ -165,7 +165,7 @@ export default {
     </div>
 </template>
 
-<script>
+/* <script>
 export default {
     data() {
         return {
@@ -270,7 +270,7 @@ export default {
         };
     }
 };
-</script>
+</script> */ -->
 
 <style>
 .project-grid {
